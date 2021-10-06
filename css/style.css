@@ -1,0 +1,58 @@
+body, html{
+	height:100%;
+	margin:0;
+	font-size:16px;
+	font-family:"Lato", sans-serif;
+	font-weight:400;
+	line-height:1.8em;
+	color:#666;
+  }
+  
+  .intro-image, .packaging-image,.tutorials-image{
+	position:relative;
+  	opacity:0.70;
+  	background-position:center;
+  	background-size:cover;
+  	background-repeat:no-repeat;
+	background-attachment: fixed;
+
+}
+
+.intro-text__textbox{
+	padding: 50px 80px;
+	text-align: center;
+	background-color:#63595C;
+}
+
+.packaging_text__textbox{
+	padding: 50px 80px;
+	text-align: center;
+
+}
+
+.copyright{
+	display: inline-block;
+	text-decoration: none;
+
+
+}
+
+.packaging-image{
+	background-image:url('../img/pexels-karolina-grabowska-4498135.jpg') ;
+	min-height: 50vh;
+
+}
+.intro-image{
+	background-image: url('../img/main-img.jpg');
+	min-height: 50vh;
+
+
+}
+
+.tutorials-image{
+	background-image: url("../img/pexels-valeria-boltneva-1123256.jpg");
+	min-height: 50vh;
+
+}
+
+
