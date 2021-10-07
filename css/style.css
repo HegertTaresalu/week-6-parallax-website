@@ -1,11 +1,12 @@
 body, html{
 	height:100%;
 	margin:0;
-	font-size:16px;
+	font-size:1rem;
 	font-family:"Lato", sans-serif;
 	font-weight:400;
 	line-height:1.8em;
-	color:#666;
+	color:gray;
+	text-transform: capitalize ;
   }
   
   .intro-image, .packaging-image,.tutorials-image{
@@ -34,38 +35,92 @@ colors:
 .intro-text__textbox{
 	padding: 50px 80px;
 	text-align: center;
-	background-color:#63595C;
+	background-color:#646881;
 }
 
 .packaging_text__textbox{
 	padding: 50px 80px;
 	text-align: center;
+	background-color: #63595C	;
 
 }
+
+.footer{
+	text-align: center;
+	padding-top: 1vh;
+	background-color:#404E4D ;
+}
+
+
 
 .copyright{
 	display: inline-block;
 	text-decoration: none;
-
+	color: gray;
 
 }
 
 .packaging-image{
 	background-image:url('../img/pexels-karolina-grabowska-4498135.jpg') ;
-	min-height: 50vh;
+	height: 50vh;
 
 }
 .intro-image{
 	background-image: url('../img/main-img.jpg');
-	min-height: 50vh;
+	height: 50vh;
 
 
 }
 
 .tutorials-image{
 	background-image: url("../img/pexels-valeria-boltneva-1123256.jpg");
-	min-height: 50vh;
+	height: 50vh;
 
 }
 
+.wrapper a{
+	text-decoration: none;
+	color: gray;
 
+}
+.wrapper{
+	color: gray;
+	
+}
+
+.footer ul{
+	list-style-type: none;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.footer i{
+	margin-right: 0.5rem;
+	margin-left: 0.5rem;
+}
+
+.btn{
+	width: 25%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+	color: gray;
+	text-decoration: none;
+	font-size: 2rem;
+	background-color:#111;
+	padding:20px;
+	opacity: 50%;
+
+
+}
+.btn:hover
+{
+	transform: scale(2);
+    opacity: 100%;
+	transition: 1s;
+
+
+}
