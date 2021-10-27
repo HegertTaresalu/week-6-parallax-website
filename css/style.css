@@ -72,6 +72,8 @@ colors:
 .packaging-image{
 	background-image:url('../img/pexels-karolina-grabowska-4498135.jpg') ;
 	height: 50vh;
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);/*ma teoreetiliselt kasutan clip pathi*/
+							   /* ma ei leidnud kuidas seda kasutada õigselt selles projektis*/
 
 }
 .intro-image{
